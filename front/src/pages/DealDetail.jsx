@@ -116,7 +116,7 @@ export function DealDetail() {
           <h1 className="card-title">{deal.title}</h1>
           <p className="card-text">{deal.description}</p>
 
-          <div className="card-btn">
+          <div className="card-btn"> //separate it into a component
             <button
               onClick={handleLike}
               disabled={liked}
@@ -132,7 +132,7 @@ export function DealDetail() {
             </Link>
             <DeleteDeal dealId={dealId} />
           </div>
-          <section className="comment-section">
+          <section className="comment-section">  //separate it into a component
             <h2>Comments</h2>
             {comments.map((comment, index) => (
               <div key={index}>
