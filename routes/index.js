@@ -66,7 +66,7 @@ router.delete("/api/deals/id/:id", async function (req, res) {
   }
 });
 
-router.get("/api/deals/category/:categoryName", async (req, res) => {
+router.get("/api/deals/category/:categoryName", async (req, res) => { 
   try {
     const category = req.params.categoryName;
     const deals = await myDB.getDealsByCategory(category);
@@ -76,7 +76,7 @@ router.get("/api/deals/category/:categoryName", async (req, res) => {
   }
 });
 
-router.post("/api/deals/id/:dealId/comments", async (req, res) => {
+router.post("/api/deals/id/:dealId/comments", async (req, res) => {  //could separate all comments related routers into a different file
   try {
     const { dealId } = req.params;
     const comment = { ...req.body, dealId };
