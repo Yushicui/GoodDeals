@@ -73,7 +73,7 @@ export function DisplayPage({ category }) {
           </div>
         ))}
 
-        <div className="pagination">
+        <div className="pagination"> //make pagination into a separate react component, like Pagination.jsx
           <button
             onClick={() => paginate(currentPage - 1)}
             disabled={currentPage === 1}
