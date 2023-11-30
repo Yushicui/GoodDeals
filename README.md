@@ -1,5 +1,5 @@
 # GoodDeals
-
+//
 ## Project Objective
 
 GoodDeals is an online platform designed for shoppers to discover, share, and discuss the best deals available across various categories. Users can post their found deals, comment on others, and rank them. With a focus on community interaction and ease of use, GoodDeals not only promotes savings but also facilitates a space for shoppers to interact and help each other find the best discounts around.
