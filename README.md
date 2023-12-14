@@ -34,6 +34,8 @@ View Design Document: [Design Document](https://docs.google.com/document/d/1mLVD
 - **Deals Ranking:** A dynamic ranking system that ranks deals based on user likes
 - **Deals Display:** Deals are organized and displayed on their respective category pages
 
+## Features2.0(new release)
+
 ## Screenshot
 
 Home Page:
