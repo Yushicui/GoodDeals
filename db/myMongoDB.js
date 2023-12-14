@@ -32,6 +32,9 @@ function MyMongoDB() {
   myDB.getDeals = async (query = {}) => {
     const db = await connect();
     const dealCol = db.collection(CollName_Deal);
+    // Code Reviewer: I would add something like sort([['_id', -1]]) to make sure the newest deals appear first:
+    // I made a copy of the line below so you can decide to make this change if you agree
+    // const deals = await dealCol.find(query).sort([['_id', -1]]).toArray();
     const deals = await dealCol.find(query).toArray();
     return deals;
   };
