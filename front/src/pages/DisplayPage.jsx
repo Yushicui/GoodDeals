@@ -55,6 +55,8 @@ export function DisplayPage({ category }) {
                   />
                 </div>
                 <div className="col-md-8 text-center">
+                  // Code: Reviewer: I would suggest making it so that clicking the
+                  // the name  <h3> tag also redirects you to "/deals/id/${post._id}"
                   <h3>{post.title}</h3>
                   <p>Likes: {post.like}</p>
                   <p className="post-content">{post.description}</p>
