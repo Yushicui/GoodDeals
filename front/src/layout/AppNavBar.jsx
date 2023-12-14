@@ -5,7 +5,7 @@ export function AppNavBar() {
     <nav>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href="/">All Deals</a>
         </li>
         <li>
           <a href="/category/grocery">Grocery</a>
